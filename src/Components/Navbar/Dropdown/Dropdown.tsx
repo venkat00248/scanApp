@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // import React, { useContext, useState } from 'react'
 // import { HashLink } from 'react-router-hash-link'
 import './Dropdown.css'
 // import { ContextApp } from '../../../ContextApi'
 function Dropdown(props:any) {
-  const {dropdown, link} = props
+  const {dropdown} = props
   // const {keyword, setKeyword} = useContext(ContextApp)
   const optionsrow = dropdown?.map((option:any)=>{
     return (

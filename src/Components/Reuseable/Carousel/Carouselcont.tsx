@@ -1,14 +1,13 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 import Rippleicon from '../Icon/Rippleicon'
 import './Carousel.css'
 function Carouselcont(props:any) {
-  const {slides, setCurrentslide, currentslide} = props
+  const {slides, setCurrentslide} = props
   return  <Carousel 
       className='carousel' 
-      NavButton={({onClick, className, style, next, prev})=>{
+      NavButton={({ next})=>{
        return ( 
       //  <div onClick={onClick}>
       <div>

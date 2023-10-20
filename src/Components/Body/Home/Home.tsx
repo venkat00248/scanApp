@@ -1,15 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { profile } from '../../Appconstant'
 import Carouselcont from '../../Reuseable/Carousel/Carouselcont'
-// import Typeonload from '../../Reuseable/Typeonload/Typeonload'
-import Aboutsection from '../Aboutsection/Aboutsection'
 import Banner from '../Banner/Banner'
 import Slide from '../Banner/Slide'
-import Featuressection from '../Featuressection/Featuressection'
 
-function Home(props:any) {
+function Home(_props:any) {
   const [currentslide, setCurrentslide] = useState(0)
   const slidesrow = profile?.map((el, i)=>{
     return <Slide  slide={el} index={i} currentslide={currentslide}/>

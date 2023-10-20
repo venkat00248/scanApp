@@ -4,7 +4,7 @@ import AOS from "aos";
 import Home from "./Components/Body/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import { links } from "./Components/Appconstant";
-import ContextAppProvider from "./ContextApi";
+import ContextAppProvider from "./ContextAPI";
 
 export default function App() {
   useEffect(() => {

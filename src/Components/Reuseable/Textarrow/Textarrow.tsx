@@ -1,8 +1,8 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./Textarrow.css";
 
 function Textarrow(props: any) {
-  const { text = "Read More", icon = "fa fa-long-arrow-right", link } = props;
+  const { text = "Read More", icon = "fa fa-long-arrow-right" } = props;
 
   return(
   // <Link to={link+'#top'} className="readmore">

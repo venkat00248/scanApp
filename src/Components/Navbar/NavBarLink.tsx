@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
-// import { NavHashLink } from 'react-router-hash-link'
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Dropdown from './Dropdown/Dropdown'
-import { CSSTransition } from 'react-transition-group'
 
 function NavBarLink(props:any) {
-  const {link, clickEvent} = props
+  const {link} = props
   return (
     <div>
     {/* <NavHashLink 

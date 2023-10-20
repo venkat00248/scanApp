@@ -1,6 +1,6 @@
-import React from 'react'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Banner from './Banner'
-
 function Bannerprops(props:any) {
   const {img, title, text, backgroundcolor='#f5f5f5'} = props
   return (

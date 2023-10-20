@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { createContext, useRef, useState, FC } from 'react';
 
 interface ContextAppProps {

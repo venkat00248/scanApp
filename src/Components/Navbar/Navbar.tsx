@@ -1,11 +1,12 @@
-import React, { useContext, useEffect, useState } from 'react'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import  { useContext, useEffect, useState } from 'react'
 import Mappedarray from '../Body/Mappedarray/Mappedarray'
 import Logo from '../Reuseable/Logo/Logo'
 import NavBarLink from './NavBarLink'
 import './Navbar.css'
 
 import AppButton from '../Reuseable/Button/Button'
-import { ContextApp } from '../../ContextApi'
+import { ContextApp } from '../../ContextAPI'
 function Navbar(props:any){
   const {links} = props
   const {scrolled, setScrolled} = useContext(ContextApp)

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import './Logo.css'
 function Logo(props:any) {
   const {text='TurtleX', text2='Digital'} = props
